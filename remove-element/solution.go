@@ -27,4 +27,11 @@ func main() {
 	fmt.Println("------------------------------------")
 	fmt.Println(out)
 	fmt.Println("------------------------------------")
+	
+	arr = []int{0, 1, 2, 2, 3, 0, 4, 2}
+	out = removeElement(arr, 2)
+	fmt.Println("------------------------------------")
+	fmt.Println(arr)
+	fmt.Println(out)
+	fmt.Println("------------------------------------")
 }
